@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "999152594780",
+    "firebase_url": "https://firstresponderapplicatio-fd5ae.firebaseio.com",
+    "project_id": "firstresponderapplicatio-fd5ae",
+    "storage_bucket": "firstresponderapplicatio-fd5ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999152594780:android:36650fd96b09be51",
+        "android_client_info": {
+          "package_name": "giorgos.FirstResponderApplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999152594780-c8nhu1bgcpn9ce37e0citicgp49r620q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzKjGdeeiFOin7jHHEXjKmG82eTL-q6w0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

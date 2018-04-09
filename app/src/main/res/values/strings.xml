@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="app_name">FirstResponderApplication</string>
+    <string name="HelpMe">HELP ME</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="GetLocation">"Get location"</string>
+    <string name="TextView">"Choose crisis category:"</string>
+    <string name="Imagebuttoncd">"cd"</string>
+    <string name="Age">"Age"</string>
+    <string name="Gender">" Gender"</string>
+    <string name="Phone">"Phone"</string>
+    <string name="Register">"Register"</string>
+    <string name="text_accounts">All Accounts</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="Birthday">"Birthday"</string>
+    <string name="PleaseChooseMedicalCrisis">"  Choose Medical Crisis"</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Register now!</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="MEDICAL">MEDICAL</string>
+    <string name="FIRE">FIRE</string>
+    <string name="ACCIDENT">ACCIDENT</string>
+    <string name="OTHER">OTHER</string>
+    <string name="action_settings">Settings</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="hint_name">hintname</string>
+    <string name="text_title">textitle</string>
+    <string name="Please_choose_Medical_Crisis">Please choose the medical crisis</string>
+    <string name="text_hello" />
+
+
+</resources>

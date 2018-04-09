@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="giorgos.FirstResponderApplication.Activities.CrisisCategoriesActivity">
+
+    <ImageButton
+        android:id="@+id/MedicalCategory"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="14dp"
+
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/medical"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/FireCategory"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="15dp"
+
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/MedicalCategory"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fire"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/AccidentCategory"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Medicaltxtview"
+        app:srcCompat="@drawable/accident" />
+
+    <ImageButton
+        android:id="@+id/OthersCategories"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="15dp"
+
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/AccidentCategory"
+        app:layout_constraintTop_toBottomOf="@+id/Firetxtview"
+        app:srcCompat="@drawable/other" />
+
+    <TextView
+        android:id="@+id/Medicaltxtview"
+        android:layout_width="80dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="2dp"
+
+        android:gravity="center"
+        android:text="@string/MEDICAL"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MedicalCategory" />
+
+    <TextView
+        android:id="@+id/Firetxtview"
+        android:layout_width="80dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="@string/FIRE"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/Medicaltxtview"
+        app:layout_constraintTop_toBottomOf="@+id/FireCategory" />
+
+    <TextView
+        android:id="@+id/Accidenttxtview"
+        android:layout_width="80dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="@string/ACCIDENT"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AccidentCategory" />
+
+    <TextView
+        android:id="@+id/Othertxtview"
+        android:layout_width="80dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="@string/OTHER"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/Accidenttxtview"
+        app:layout_constraintTop_toBottomOf="@+id/OthersCategories" />
+
+
+</android.support.constraint.ConstraintLayout>
